@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP-WORK</Machine>
+    <WindowsUser>Ilia</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>17960PlaySometimes.24Points</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>7A763A78159DC81ACC405A00549F558F77E0ACDB578921F4F99898BB87E342A8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>17960PlaySometimes.24Points_1.1.3.0_neutral__smshkqcxqwmgc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>17960PlaySometimes.24Points_smshkqcxqwmgc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>17960PlaySometimes.24Points</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=F4A8A0AF-A7A4-4C74-A3B2-9C49338F3F43</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.3.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-02T08:35:33.922</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\24 POINTS.exe">
+      <PackagePath>24 POINTS.exe</PackagePath>
+      <Modified>2015-10-02T08:35:32.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\background.png">
+      <PackagePath>Assets\images\background.png</PackagePath>
+      <Modified>2015-09-14T21:57:06.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\0.png">
+      <PackagePath>Assets\images\Cards\0.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\1.png">
+      <PackagePath>Assets\images\Cards\1.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\10.png">
+      <PackagePath>Assets\images\Cards\10.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\11.png">
+      <PackagePath>Assets\images\Cards\11.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\12.png">
+      <PackagePath>Assets\images\Cards\12.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\13.png">
+      <PackagePath>Assets\images\Cards\13.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\14.png">
+      <PackagePath>Assets\images\Cards\14.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\15.png">
+      <PackagePath>Assets\images\Cards\15.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\16.png">
+      <PackagePath>Assets\images\Cards\16.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\17.png">
+      <PackagePath>Assets\images\Cards\17.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\18.png">
+      <PackagePath>Assets\images\Cards\18.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\19.png">
+      <PackagePath>Assets\images\Cards\19.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\2.png">
+      <PackagePath>Assets\images\Cards\2.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\20.png">
+      <PackagePath>Assets\images\Cards\20.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\21.png">
+      <PackagePath>Assets\images\Cards\21.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\22.png">
+      <PackagePath>Assets\images\Cards\22.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\23.png">
+      <PackagePath>Assets\images\Cards\23.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\24.png">
+      <PackagePath>Assets\images\Cards\24.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\25.png">
+      <PackagePath>Assets\images\Cards\25.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\26.png">
+      <PackagePath>Assets\images\Cards\26.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\27.png">
+      <PackagePath>Assets\images\Cards\27.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\28.png">
+      <PackagePath>Assets\images\Cards\28.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\29.png">
+      <PackagePath>Assets\images\Cards\29.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\3.png">
+      <PackagePath>Assets\images\Cards\3.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\30.png">
+      <PackagePath>Assets\images\Cards\30.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\31.png">
+      <PackagePath>Assets\images\Cards\31.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\32.png">
+      <PackagePath>Assets\images\Cards\32.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\33.png">
+      <PackagePath>Assets\images\Cards\33.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\34.png">
+      <PackagePath>Assets\images\Cards\34.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\35.png">
+      <PackagePath>Assets\images\Cards\35.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\36.png">
+      <PackagePath>Assets\images\Cards\36.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\37.png">
+      <PackagePath>Assets\images\Cards\37.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\38.png">
+      <PackagePath>Assets\images\Cards\38.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\39.png">
+      <PackagePath>Assets\images\Cards\39.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\4.png">
+      <PackagePath>Assets\images\Cards\4.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\40.png">
+      <PackagePath>Assets\images\Cards\40.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\41.png">
+      <PackagePath>Assets\images\Cards\41.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\42.png">
+      <PackagePath>Assets\images\Cards\42.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\43.png">
+      <PackagePath>Assets\images\Cards\43.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\44.png">
+      <PackagePath>Assets\images\Cards\44.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\45.png">
+      <PackagePath>Assets\images\Cards\45.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\46.png">
+      <PackagePath>Assets\images\Cards\46.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\47.png">
+      <PackagePath>Assets\images\Cards\47.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\48.png">
+      <PackagePath>Assets\images\Cards\48.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\49.png">
+      <PackagePath>Assets\images\Cards\49.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\5.png">
+      <PackagePath>Assets\images\Cards\5.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\50.png">
+      <PackagePath>Assets\images\Cards\50.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\51.png">
+      <PackagePath>Assets\images\Cards\51.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\52.png">
+      <PackagePath>Assets\images\Cards\52.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\53.png">
+      <PackagePath>Assets\images\Cards\53.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\54.png">
+      <PackagePath>Assets\images\Cards\54.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\6.png">
+      <PackagePath>Assets\images\Cards\6.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\7.png">
+      <PackagePath>Assets\images\Cards\7.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\8.png">
+      <PackagePath>Assets\images\Cards\8.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Cards\9.png">
+      <PackagePath>Assets\images\Cards\9.png</PackagePath>
+      <Modified>2015-09-15T00:28:17.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon.png">
+      <PackagePath>Assets\images\icons\icon.png</PackagePath>
+      <Modified>2015-09-18T07:18:21.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_120.scale-100.png">
+      <PackagePath>Assets\images\icons\icon_120.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:50:11.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_120.scale-140.png">
+      <PackagePath>Assets\images\icons\icon_120.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:49:49.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_120.scale-180.png">
+      <PackagePath>Assets\images\icons\icon_120.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:48:22.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_120.scale-80.png">
+      <PackagePath>Assets\images\icons\icon_120.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-18T07:19:21.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_24.scale-100.png">
+      <PackagePath>Assets\images\icons\icon_24.scale-100.png</PackagePath>
+      <Modified>2015-09-18T07:18:28.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_24.scale-140.png">
+      <PackagePath>Assets\images\icons\icon_24.scale-140.png</PackagePath>
+      <Modified>2015-09-25T09:44:28.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_24.scale-180.png">
+      <PackagePath>Assets\images\icons\icon_24.scale-180.png</PackagePath>
+      <Modified>2015-09-25T09:45:13.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_30.png">
+      <PackagePath>Assets\images\icons\icon_30.png</PackagePath>
+      <Modified>2015-09-18T07:18:34.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_43.png">
+      <PackagePath>Assets\images\icons\icon_43.png</PackagePath>
+      <Modified>2015-09-25T09:45:13.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_50.png">
+      <PackagePath>Assets\images\icons\icon_50.png</PackagePath>
+      <Modified>2015-09-18T07:19:00.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_70.scale-100.png">
+      <PackagePath>Assets\images\icons\icon_70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-18T07:19:06.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_70.scale-140.png">
+      <PackagePath>Assets\images\icons\icon_70.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:51:15.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_70.scale-180.png">
+      <PackagePath>Assets\images\icons\icon_70.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:51:48.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\icons\icon_70.scale-80.png">
+      <PackagePath>Assets\images\icons\icon_70.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:50:37.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_120.png">
+      <PackagePath>Assets\images\logos\logo_120.png</PackagePath>
+      <Modified>2015-09-15T08:13:30.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_150.scale-180.png">
+      <PackagePath>Assets\images\logos\logo_150.scale-180.png</PackagePath>
+      <Modified>2015-09-15T08:13:30.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_210.png">
+      <PackagePath>Assets\images\logos\logo_210.png</PackagePath>
+      <Modified>2015-09-15T08:13:30.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_270.png">
+      <PackagePath>Assets\images\logos\logo_270.png</PackagePath>
+      <Modified>2015-09-15T08:13:30.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_600.png">
+      <PackagePath>Assets\images\logos\logo_600.png</PackagePath>
+      <Modified>2015-09-15T08:16:32.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_620x300.png">
+      <PackagePath>Assets\images\logos\logo_620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-15T23:42:48.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\logos\logo_70.png">
+      <PackagePath>Assets\images\logos\logo_70.png</PackagePath>
+      <Modified>2015-09-15T08:17:46.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Operators\add.png">
+      <PackagePath>Assets\images\Operators\add.png</PackagePath>
+      <Modified>2015-09-15T04:28:02.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Operators\delete.png">
+      <PackagePath>Assets\images\Operators\delete.png</PackagePath>
+      <Modified>2015-09-15T04:28:02.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Operators\multiply.png">
+      <PackagePath>Assets\images\Operators\multiply.png</PackagePath>
+      <Modified>2015-09-15T04:28:02.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\Operators\substract.png">
+      <PackagePath>Assets\images\Operators\substract.png</PackagePath>
+      <Modified>2015-09-15T04:28:02.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-09-25T09:50:11.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-18T07:18:03.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:41:38.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:42:08.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-18T07:18:28.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:41:07.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:40:21.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:37:32.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:38:53.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-09-15T23:42:38.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\Square310x310Logo.scale-80.png">
+      <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
+      <Modified>2015-09-25T09:52:33.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-18T07:17:54.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-18T07:19:06.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T09:43:07.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\Assets\images\casinoBkg.jpg">
+      <PackagePath>Assets\images\casinoBkg.jpg</PackagePath>
+      <Modified>2015-09-14T22:12:17.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\24 POINTS.xr.xml">
+      <PackagePath>24 POINTS.xr.xml</PackagePath>
+      <Modified>2015-10-01T09:00:50.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-09-24T10:15:16.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\gameField.xbf">
+      <PackagePath>gameField.xbf</PackagePath>
+      <Modified>2015-10-02T08:35:31.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-10-01T09:00:50.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-02T08:35:32.977</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

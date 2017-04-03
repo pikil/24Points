@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="_24pointsGame.gameField"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_24pointsGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="playBackground" Source="Assets/images/casinoBkg.jpg" Tapped="playBackground_Tapped" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <CompositeTransform ScaleX="1.18"/>
+            </Image.RenderTransform>
+        </Image>
+        <Button x:Name="backBtn" Content="Main menu" HorizontalAlignment="Right" Margin="0,7,7,0" VerticalAlignment="Top" FontSize="40" Click="button_Click" Canvas.ZIndex="10" RequestedTheme="Dark"/>
+        <TextBlock x:Name="nameBlock" HorizontalAlignment="Right" Margin="0,0,10,10" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="40" Canvas.ZIndex="5" Text="" Width="319" d:LayoutOverrides="HorizontalAlignment" Height="104" TextAlignment="Right"/>
+        <TextBlock x:Name="modeBlock" Margin="0,0,361,66" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="40" HorizontalAlignment="Right" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Height="48" Text="" Canvas.ZIndex="4" Width="310"/>
+        <Button x:Name="drawBtn" Content="Draw" Margin="7,7,0,0" VerticalAlignment="Top" FontSize="40" Canvas.ZIndex="10" Click="drawBtn_Click"/>
+        <Rectangle Fill="#FFF4F4F5" Stroke="Black" HorizontalAlignment="Right" Height="122" VerticalAlignment="Bottom" Width="679" Opacity="0.2" Canvas.ZIndex="1"/>
+        <Button x:Name="rulesBtn" Content="Rules" HorizontalAlignment="Right" Margin="0,7,246,0" VerticalAlignment="Top" FontSize="40" Canvas.ZIndex="10" Click="rulesBtn_Click"/>
+        <Grid Margin="288,252,279,155" HorizontalAlignment="Center">
+            <Image x:Name="imageCard1" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.ZIndex="10" Height="244" Width="172" d:LayoutOverrides="HorizontalAlignment" Tapped="imageCard1_Tapped"/>
+            <Image x:Name="imageCard2" HorizontalAlignment="Left" Margin="208,0,0,0" VerticalAlignment="Top" Canvas.ZIndex="10" Height="244" Width="172" d:LayoutOverrides="HorizontalAlignment" Tapped="imageCard2_Tapped"/>
+            <Image x:Name="imageCard3" HorizontalAlignment="Left" Margin="418,0,0,0" VerticalAlignment="Top" Canvas.ZIndex="10" Height="244" Width="172" Tapped="imageCard3_Tapped"/>
+            <Image x:Name="imageCard4" HorizontalAlignment="Left" Margin="627,0,0,0" VerticalAlignment="Top" Canvas.ZIndex="10" Height="244" Width="172" Tapped="imageCard4_Tapped"/>
+            <TextBlock x:Name="blockCard1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="-" VerticalAlignment="Bottom" FontSize="93.333" FontWeight="Bold" Width="172" TextAlignment="Center" Opacity="0.25" Canvas.ZIndex="10"/>
+            <TextBlock x:Name="blockCard2" HorizontalAlignment="Left" Margin="208,0,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Bottom" FontSize="93.333" FontWeight="Bold" Width="172" TextAlignment="Center" Opacity="0.25" Canvas.ZIndex="10"/>
+            <TextBlock x:Name="blockCard3" HorizontalAlignment="Right" Margin="0,0,209,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Bottom" FontSize="93.333" FontWeight="Bold" Width="172" TextAlignment="Center" Opacity="0.25" Canvas.ZIndex="10"/>
+            <TextBlock x:Name="blockCard4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="-" VerticalAlignment="Bottom" FontSize="93.333" FontWeight="Bold" Width="172" TextAlignment="Center" Opacity="0.25" Canvas.ZIndex="10"/>
+        </Grid>
+        <TextBlock x:Name="roundBlock" HorizontalAlignment="Right" Margin="0,0,364,0" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="46.667" d:LayoutOverrides="HorizontalAlignment" FontWeight="Bold" Width="307" Canvas.ZIndex="5" Text=""/>
+        <Grid Height="187" Margin="475,54,476,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="415">
+            <Image x:Name="imageMultiply" Margin="0,0,105,0" Source="Assets/images/Operators/multiply.png" HorizontalAlignment="Right" Width="100" Canvas.ZIndex="10" Opacity="0.8" Tapped="imageMultiply_Tapped" d:LayoutOverrides="TopPosition, BottomPosition" Visibility="Collapsed"/>
+            <Image x:Name="imageDelete" HorizontalAlignment="Right" Width="100" Source="Assets/images/Operators/delete.png" Canvas.ZIndex="10" Opacity="0.8" Tapped="imageDelete_Tapped" d:LayoutOverrides="TopPosition, BottomPosition" Visibility="Collapsed"/>
+            <Image x:Name="imageAdd" Source="Assets/images/Operators/add.png" HorizontalAlignment="Left" Width="100" Canvas.ZIndex="10" Opacity="0.8" Tapped="imageAdd_Tapped" d:LayoutOverrides="TopPosition, BottomPosition" Visibility="Collapsed"/>
+            <Image x:Name="imageSubstract" Margin="105,0,0,0" Source="Assets/images/Operators/substract.png" Canvas.ZIndex="10" Opacity="0.8" Tapped="imageSubstract_Tapped_1" d:LayoutOverrides="TopPosition, BottomPosition" HorizontalAlignment="Left" Width="100" Visibility="Collapsed"/>
+            <TextBlock x:Name="eqBlock" HorizontalAlignment="Left" Margin="133,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="33.333" FontWeight="Bold" TextAlignment="Center" Opacity="0.75" Text="" Width="147"/>
+        </Grid>
+        <Button x:Name="equalsBtn" Content="→" HorizontalAlignment="Right" Margin="0,249,177,269" VerticalAlignment="Stretch" FontSize="66.667" Tapped="equalsBtn_Tapped" Visibility="Collapsed"/>
+        <Grid HorizontalAlignment="Right" Height="104" Margin="0,252,26,0" VerticalAlignment="Top" Width="134">
+            <TextBlock Padding="20 20" x:Name="blockResult1" TextWrapping="Wrap" FontSize="53.333" TextAlignment="Center" Canvas.ZIndex="10" Tapped="blockResult1_Tapped" d:LayoutOverrides="Height, LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle x:Name="blockResult1Bkg" Fill="#FFF4F4F5" Stroke="Black" Canvas.ZIndex="5" Opacity="0.3" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Visibility="Collapsed"/>
+        </Grid>
+        <Grid HorizontalAlignment="Right" Height="104" Margin="0,0,26,272" VerticalAlignment="Bottom" Width="134">
+            <TextBlock Padding="20 20" x:Name="blockResult2" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="53.333" TextAlignment="Center" Canvas.ZIndex="10" Tapped="blockResult2_Tapped" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Rectangle x:Name="blockResult2Bkg" Fill="#FFF4F4F5" Stroke="Black" Canvas.ZIndex="5" Opacity="0.3" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Visibility="Collapsed"/>
+        </Grid>
+        <Button x:Name="againBtn" Content="Restart game" Margin="155,7,0,0" VerticalAlignment="Top" FontSize="40" Click="againBtn_Click"/>
+        <Button x:Name="restartRoundBtn" Content="Restart round" HorizontalAlignment="Right" Margin="0,140,11,0" VerticalAlignment="Top" FontSize="33.333" Click="restartRoundBtn_Click" Width="258" Visibility="Collapsed"/>
+        <TextBlock x:Name="finalResultBlock" HorizontalAlignment="Right" Margin="0,0,14,91" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="133.333" FontWeight="Bold" Opacity="0.8" Width="255" TextAlignment="Right"/>
+        <Grid HorizontalAlignment="Left" Height="60" Margin="0,140,0,0" VerticalAlignment="Top" Width="417">
+            <TextBlock Padding="20 10" x:Name="opScoreBlock" TextWrapping="Wrap" FontSize="33.333" FontWeight="Bold" Foreground="#FF494949" Canvas.ZIndex="10" TextAlignment="Center" d:LayoutOverrides="Height, LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle x:Name="opScoreBkg" Fill="#FFF4F4F5" Opacity="0.55" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Visibility="Collapsed"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="77" Margin="0,0,0,34" VerticalAlignment="Bottom" Width="432">
+            <Rectangle x:Name="scoreBkg" Fill="#FFF4F4F5" Margin="0,0,0,1" Stroke="Black" Opacity="0.55" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Visibility="Collapsed"/>
+            <TextBlock Padding="20 10" x:Name="ScoreBlock" TextWrapping="Wrap" FontSize="46.667" FontWeight="Bold" Foreground="#FF494949" Canvas.ZIndex="10" d:LayoutOverrides="Height, LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+        </Grid>
+        <Button x:Name="gameBtn" Content="Finish" Margin="7,7,0,0" VerticalAlignment="Top" FontSize="40" Canvas.ZIndex="10" Click="gameBtn_Click" Visibility="Collapsed"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="105" Margin="0,0,334,9" Stroke="Black" VerticalAlignment="Bottom" Width="3" StrokeThickness="0" Opacity="0.75"/>
+        <TextBlock x:Name="timerBlock" Margin="578,10,516,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="33.333" TextAlignment="Center" d:LayoutOverrides="LeftPosition, RightPosition" HorizontalAlignment="Center" Width="300" Text=""/>
+        <TextBlock x:Name="_24ResultBlock" HorizontalAlignment="Right" Margin="0,0,14,91" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="133.333" FontWeight="Bold" Opacity="0.8" Width="255" TextAlignment="Right" Text="24" Foreground="#FF35A024" Visibility="Collapsed"/>
+    </Grid>
+</Page>

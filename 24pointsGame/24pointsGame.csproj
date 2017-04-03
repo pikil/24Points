@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BD1F5EE-1EE5-4524-8E48-3156BDA2E23D}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_24pointsGame</RootNamespace>
+    <AssemblyName>24 POINTS</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>24pointsGame_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxBundle>Always</AppxBundle>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>4F88549115B44840A1B56403FBB14F428FDBEFFD</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="gameField.xaml.cs">
+      <DependentUpon>gameField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="24pointsGame_StoreKey.pfx" />
+    <None Include="24pointsGame_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\images\background.png" />
+    <Content Include="Assets\images\Cards\0.png" />
+    <Content Include="Assets\images\Cards\1.png" />
+    <Content Include="Assets\images\Cards\10.png" />
+    <Content Include="Assets\images\Cards\11.png" />
+    <Content Include="Assets\images\Cards\12.png" />
+    <Content Include="Assets\images\Cards\13.png" />
+    <Content Include="Assets\images\Cards\14.png" />
+    <Content Include="Assets\images\Cards\15.png" />
+    <Content Include="Assets\images\Cards\16.png" />
+    <Content Include="Assets\images\Cards\17.png" />
+    <Content Include="Assets\images\Cards\18.png" />
+    <Content Include="Assets\images\Cards\19.png" />
+    <Content Include="Assets\images\Cards\2.png" />
+    <Content Include="Assets\images\Cards\20.png" />
+    <Content Include="Assets\images\Cards\21.png" />
+    <Content Include="Assets\images\Cards\22.png" />
+    <Content Include="Assets\images\Cards\23.png" />
+    <Content Include="Assets\images\Cards\24.png" />
+    <Content Include="Assets\images\Cards\25.png" />
+    <Content Include="Assets\images\Cards\26.png" />
+    <Content Include="Assets\images\Cards\27.png" />
+    <Content Include="Assets\images\Cards\28.png" />
+    <Content Include="Assets\images\Cards\29.png" />
+    <Content Include="Assets\images\Cards\3.png" />
+    <Content Include="Assets\images\Cards\30.png" />
+    <Content Include="Assets\images\Cards\31.png" />
+    <Content Include="Assets\images\Cards\32.png" />
+    <Content Include="Assets\images\Cards\33.png" />
+    <Content Include="Assets\images\Cards\34.png" />
+    <Content Include="Assets\images\Cards\35.png" />
+    <Content Include="Assets\images\Cards\36.png" />
+    <Content Include="Assets\images\Cards\37.png" />
+    <Content Include="Assets\images\Cards\38.png" />
+    <Content Include="Assets\images\Cards\39.png" />
+    <Content Include="Assets\images\Cards\4.png" />
+    <Content Include="Assets\images\Cards\40.png" />
+    <Content Include="Assets\images\Cards\41.png" />
+    <Content Include="Assets\images\Cards\42.png" />
+    <Content Include="Assets\images\Cards\43.png" />
+    <Content Include="Assets\images\Cards\44.png" />
+    <Content Include="Assets\images\Cards\45.png" />
+    <Content Include="Assets\images\Cards\46.png" />
+    <Content Include="Assets\images\Cards\47.png" />
+    <Content Include="Assets\images\Cards\48.png" />
+    <Content Include="Assets\images\Cards\49.png" />
+    <Content Include="Assets\images\Cards\5.png" />
+    <Content Include="Assets\images\Cards\50.png" />
+    <Content Include="Assets\images\Cards\51.png" />
+    <Content Include="Assets\images\Cards\52.png" />
+    <Content Include="Assets\images\Cards\53.png" />
+    <Content Include="Assets\images\Cards\54.png" />
+    <Content Include="Assets\images\Cards\6.png" />
+    <Content Include="Assets\images\Cards\7.png" />
+    <Content Include="Assets\images\Cards\8.png" />
+    <Content Include="Assets\images\Cards\9.png" />
+    <Content Include="Assets\images\casinoBkg.jpg" />
+    <Content Include="Assets\images\icons\icon.png" />
+    <Content Include="Assets\images\icons\icon_120.scale-100.png" />
+    <Content Include="Assets\images\icons\icon_120.scale-140.png" />
+    <Content Include="Assets\images\icons\icon_120.scale-180.png" />
+    <Content Include="Assets\images\icons\icon_120.scale-80.png" />
+    <Content Include="Assets\images\icons\icon_24.scale-100.png" />
+    <Content Include="Assets\images\icons\icon_24.scale-140.png" />
+    <Content Include="Assets\images\icons\icon_24.scale-180.png" />
+    <Content Include="Assets\images\icons\icon_30.png" />
+    <Content Include="Assets\images\icons\icon_43.png" />
+    <Content Include="Assets\images\icons\icon_50.png" />
+    <Content Include="Assets\images\icons\icon_70.scale-100.png" />
+    <Content Include="Assets\images\icons\icon_70.scale-140.png" />
+    <Content Include="Assets\images\icons\icon_70.scale-180.png" />
+    <Content Include="Assets\images\icons\icon_70.scale-80.png" />
+    <Content Include="Assets\images\logos\logo_120.png" />
+    <Content Include="Assets\images\logos\logo_150.scale-180.png" />
+    <Content Include="Assets\images\logos\logo_210.png" />
+    <Content Include="Assets\images\logos\logo_270.png" />
+    <Content Include="Assets\images\logos\logo_600.png" />
+    <Content Include="Assets\images\logos\logo_620x300.png" />
+    <Content Include="Assets\images\logos\logo_70.png" />
+    <Content Include="Assets\images\Operators\add.png" />
+    <Content Include="Assets\images\Operators\delete.png" />
+    <Content Include="Assets\images\Operators\multiply.png" />
+    <Content Include="Assets\images\Operators\substract.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-180.png" />
+    <Content Include="Assets\SmallLogo.scale-80.png" />
+    <Content Include="Assets\SmallLogo.targetsize-16.png" />
+    <Content Include="Assets\SmallLogo.targetsize-256.png" />
+    <Content Include="Assets\SmallLogo.targetsize-32.png" />
+    <Content Include="Assets\SmallLogo.targetsize-48.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-180.png" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="gameField.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

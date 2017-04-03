@@ -1,0 +1,37 @@
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\App.xbf
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\gameField.xbf
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\MainPage.xbf
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\24 POINTS.xr.xml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\24 POINTS.exe
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\24 POINTS.pdb
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\resources.pri
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\AppxManifest.xml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\bin\Debug\24pointsGame.build.appxrecipe
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\App.g.i.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\App.g.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\gameField.g.i.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\gameField.g.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\MainPage.g.i.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\MainPage.g.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\App.xaml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\gameField.xaml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\MainPage.xaml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\App.xbf
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\gameField.xbf
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\MainPage.xbf
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\24 POINTS.exe
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\24 POINTS.pdb
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\priconfig.xml
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\priconfig.xml.intermediate
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\layout.resfiles
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\layout.resfiles.intermediate
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\resources.resfiles
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\resources.resfiles.intermediate
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\pri.resfiles
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\pri.resfiles.intermediate
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\qualifiers.txt
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ilia\Documents\Visual Studio 2015\Projects\24pointsGame\24pointsGame\obj\Debug\ProjectArchitectures.txt
